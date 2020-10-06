@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Welcome to guess game you have to guess a number between 1-100 in 10 guesses</h1>
+    <button id="start-btn">start game</button>
+    <br>
+    <input type="text" class="game-ele" id="userGuess">
+    <button id="sub-btn" class="game-ele">Submit</button>
+    <div class="game-ele" id="result-box">
+        <p id="prev-elements-box">
+            <span class="after-first-submit">Previous Elements: </span> <span class="after-first-submit" id="prev-guesses-box"></span>
+        </p>
+        <p id="result-text"></p>
+    </div>
+</body>
+
+</html>
