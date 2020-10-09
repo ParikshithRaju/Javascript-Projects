@@ -31,6 +31,8 @@
     border: 1px black;
     border-style: dashed;
     margin: 10px 0 0 0;
+    direction: rtl;
+    font-size: 80px;
 }
 
 
@@ -56,4 +58,6 @@
     width: 90%;
     height: 90%;
     margin: 2px 0 0 2.5px;
+    font-weight: bold;
+    font-size: large;
 }
