@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 350px;
+    height: 520px;
+    border: 1px solid black;
+}
+
+
+/* Display portion styles */
+
+.display-portion {
+    width: 90%;
+    height: 35%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.equation-display-portion {
+    width: 100%;
+    height: 40%;
+    border: 1px dashed black;
+}
+
+.number-display-portion {
+    width: 100%;
+    height: 50%;
+    border: 1px black;
+    border-style: dashed;
+    margin: 10px 0 0 0;
+}
+
+
+/* input-portion styles */
+
+.input-portion {
+    width: 90%;
+    height: 59%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin: 8px 0 0 15px;
+    height: 50px;
+    width: 60px;
+    border: 1px solid black;
+    float: left;
+}
+
+.clickable-btn {
+    width: 90%;
+    height: 90%;
+    margin: 2px 0 0 2.5px;
+}
