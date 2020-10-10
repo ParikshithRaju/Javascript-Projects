@@ -128,6 +128,11 @@ function eqBtnPressHandler() {
 }
 
 clearBtn.addEventListener("click", () => {
+    if (eqBtnPressed) {
+        eqBtnPressed = false;
+        nbObj.clearText();
+        ebObj.clearText();
+    }
     let size = nbObj.showText.length;
     nbObj.clearText();
     nbObj.renderText();
